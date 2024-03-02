@@ -31,3 +31,28 @@ console.log(a || printName());
 // if a is false then only checks second value
 
 // if a is true then it returns true
+// ----------------------------------
+
+// Template Literals - used to create strings in es6
+
+// old way of adding the string before es6
+
+let prefix="MR";
+
+let firstName="Dinesh";
+let lastName="Neeranki";
+
+console.log(prefix + " " + firstName + " "+ lastName);
+
+// now below code with Template literals
+
+console.log(`${prefix} ${firstName} ${lastName}`);
+
+// -----------------------------------
+
+// Ternary Operator if else in es6(?:)
+
+const age=20;
+
+age>=18? console.log("Major"): console.log("Minor");
+
